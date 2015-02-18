@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: GlobalVariables
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.53979301, y: .908642769, z: 1.42288876}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bbd89b80d312c4291e30b9971bb112, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go_playerMe: {fileID: 100052, guid: d018e9c34424114448e8a49934a393f7, type: 2}
+  go_playerOther: {fileID: 100040, guid: 226243555c99e5d4b98c072cd6a6c099, type: 2}
+  go_exterieur: {fileID: 0}
+  go_room: {fileID: 0}
+  go_playerComplete: {fileID: 100000, guid: 1a0cc954d618b8948a48161acc64d06b, type: 2}
+  go_monsterFactory: {fileID: 11445258, guid: 3f1bbb452a09ce940999723c45cd55bb, type: 2}
+  go_monster1: {fileID: 132338, guid: 21904761d7aab884b929d27938c212d5, type: 2}
+  go_monster2: {fileID: 194646, guid: 11533fe75a46f4d489510436ba59beed, type: 2}
+  go_monster1Empty: {fileID: 111224, guid: e87cb420ae7e342438b24fefe904e87c, type: 2}
+  go_monster2Empty: {fileID: 181294, guid: 378adcd5f40d0be4b93d11b2ff69923f, type: 2}
+  go_bullet1: {fileID: 150042, guid: 23035b035653bf04e9a030f64210bfb8, type: 2}
+  go_bullet2: {fileID: 195858, guid: 04382f241555ad84c89191e35815bfe8, type: 2}
+  go_gameManager: {fileID: 11407114, guid: 622421c09961d2c42a0e0e9bc73a00e7, type: 2}
+  go_audioManager: {fileID: 0}
+  go_energyBallFactory: {fileID: 11400000, guid: e6b66f267721eaa44923847d92f03701,
+    type: 2}
+  go_energyBall1: {fileID: 121490, guid: 7e76269c6736a884f8fe3e1218173817, type: 2}
+  go_energyBall2: {fileID: 185574, guid: edbbe6211a05da846a0fd83922fd6dcc, type: 2}
+  go_energyBall3: {fileID: 156508, guid: a57f0c0140ec6a94f8b9fb6f94672bd2, type: 2}
+  go_energyBall4: {fileID: 105020, guid: 4aff7474f5110ba449f575862234e347, type: 2}
+  go_kinect_prefab: {fileID: 100000, guid: 682fb0ce8fa3dba4faf6f5fc36896ff9, type: 2}
+  f_sizeRoom: 1
+  f_sizeInitMonster: 1.25
+  f_healthMachine: 0
+  f_damageMonsterToMachine: 1000
+  f_damageMonsterToPlayer: 2
+  f_damageBullet: 5
+  f_posXSpownMonster: -2.20000005
+  v2_rangePosZAxisSpownMonster: {x: -1.20000005, y: 2.0999999}
+  v2_rangePosYAxisSpownMonster: {x: .5, y: 2}
+  text_levels: {fileID: 4900000, guid: a78232d164bba7b44ab3901da194723c, type: 3}
+  playerHp: 10
+  f_intervalShoot: .200000003
+  f_healthMonster: 9
+  f_energySpeedRecovery: 1
+  f_energyShoot: 1
+  f_maxNumEnergy: 8
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

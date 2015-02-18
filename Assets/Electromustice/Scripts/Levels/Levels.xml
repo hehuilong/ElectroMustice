@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <LevelDescription Name="Prepare level" Duration="5">   
+  </LevelDescription>  
+  
+  <LevelDescription Name="First level" Duration="45">   
+  </LevelDescription>
+  
+  <LevelDescription Name="Second level" Duration="10">   
+  </LevelDescription>
+  
+  <LevelDescription Name="Third level" Duration="45">  
+  </LevelDescription>
+  
+  <LevelDescription Name="Last level" Duration="45">   
+  </LevelDescription>
+  
+</Datatable>
